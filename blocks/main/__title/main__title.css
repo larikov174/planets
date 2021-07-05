@@ -1,0 +1,10 @@
+.main__title {
+  width: 100%;
+  font-family: "Antonio", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,9 @@
+.main__text {
+  width: 100%;
+  font-family: "Spartan", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.79;
+  margin: 0;
+  padding: 23px 0 0 0;
+}
