@@ -20,6 +20,8 @@
 @import url(../blocks/main/__url-icon/main__url-icon.css);
 @import url(../blocks/main/__buttons/main__buttons.css);
 @import url(../blocks/main/__button/main__button.css);
+@import url(../blocks/main/__button/main__button_active.css);
+@import url(../blocks/main/__button/main__button_hover.css);
 @import url(../blocks/main/__number/main__number.css);
 
 @import url(../blocks/cards/cards.css);
