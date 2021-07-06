@@ -9,21 +9,34 @@ document.addEventListener('DOMContentLoaded', () => {
     mLink = document.querySelector('.main__link'),
     mImage = document.querySelector('.main__image'),
     cards = document.querySelector('.cards');
-  let index = 0;
 
+  let
+    index = 0;
+
+  function btnStatusChange() {
+    for (let button of buttons) {
+      button.classList.remove('main__button_active');
+      button.classList.add('main__button_hover');
+    }
+  }
+
+  function headerLinksStatusChange() {
+    for (let planet of planets) {
+      planet.classList.remove('header__link_active');
+    }
+  }
 
   // -----------header planets block--------------
-  planets.forEach((item) => {
-    item.addEventListener('click', () => {
+  planets.forEach((planet) => {
+    planet.addEventListener('click', () => {
       //---------setting overview as default active button----
-      for (let button of buttons) {
-        if (button.classList.contains('main__button_active')) {
-          button.classList.remove('main__button_active');
-        }
-      }
+      btnStatusChange();
       overviewBtn.classList.add('main__button_active');
+      overviewBtn.classList.toggle('main__button_hover');
+      headerLinksStatusChange();
+      planet.classList.add('header__link_active');
 
-      index = item.dataset.id;
+      index = planet.dataset.id;
       fetch('data.json')
         .then((Response) => Response.json())
         .then((json) => {
@@ -46,20 +59,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // -----------main nav buttons block--------------
-  buttons.forEach((item) => {
-    item.addEventListener('mousedown', () => {
+  buttons.forEach((button) => {
+    button.addEventListener('mousedown', () => {
       //-------hover/active toggle-------
-      for (let button of buttons) {
-        if (button.classList.contains('main__button_active')) {
-          button.classList.remove('main__button_active');
-          button.classList.add('main__button_hover');
-        }
-      }
-      item.classList.toggle('main__button_hover');
-      item.classList.toggle('main__button_active');
+      btnStatusChange();
+      button.classList.toggle('main__button_hover');
+      button.classList.toggle('main__button_active');
       //-------------info change----------
-      let option = item.dataset.name;
-      let picture = item.dataset.image;
+      let option = button.dataset.name;
+      let picture = button.dataset.image;
       fetch('data.json')
         .then((Response) => Response.json())
         .then((json) => {
