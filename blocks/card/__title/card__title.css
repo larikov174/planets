@@ -1,0 +1,13 @@
+.card__title {
+  font-family: "Spartan", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 2.27;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  margin: 0 0 0 23px;
+  padding: 20px 0 0 0;
+}
