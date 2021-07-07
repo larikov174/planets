@@ -1,6 +1,6 @@
 .main__info {
   display: grid;
   grid-template-columns: fit-content(350px);
-  grid-template-rows: repeat(4, min-content);
+  grid-template-rows: min-content 173px repeat(2, min-content);
   margin: 0 0 12px 112px;
 }

@@ -10,3 +10,10 @@
   margin: 0 0 0 23px;
   padding: 4px 0 0 0;
 }
+
+@media screen and (max-width: 1170px) {
+  .card__subtitle {
+    font-size: 24px;
+    letter-spacing: -0.9px;
+  }
+}

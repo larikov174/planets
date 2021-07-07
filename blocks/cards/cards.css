@@ -7,3 +7,14 @@
   margin: 0 auto;
   padding: 18px 0 56px 0;
 }
+
+@media screen and (max-width: 1170px) {
+  .cards {
+    grid-template-rows: minmax(88px, max-content);
+    grid-template-columns: repeat(4, 164px);
+    gap: 0 11px;
+    padding: 10px 0 36px 0;
+    justify-content: center;
+  }
+
+}
