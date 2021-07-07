@@ -32,7 +32,10 @@
 
   <main>
     <section class="main">
-      <img class="main__image" alt="Mercury" src="./images/planet-mercury.svg" />
+      <div class="main__image-block">
+        <img class="main__image" alt="Mercury" src="./images/planet-mercury.svg" />
+        <img class="main__image-pointer" alt="Mercury" src="./images/geology-mercury.png" />
+      </div>
       <article class="main__info">
         <h2 class="main__title">mercury</h2>
         <p class="main__text">
@@ -48,7 +51,7 @@
         <nav class="main__buttons">
           <button data-name="overview" data-image="planet" class="main__button main__button_active"><span class="main__number">01</span>overview</button>
           <button data-name="structure" data-image="internal" class="main__button main__button_hover"><span class="main__number">02</span>internal structure</button>
-          <button data-name="geology" data-image="geology" class="main__button main__button_hover"><span class="main__number">03</span>surface geology</button>
+          <button data-name="geology" data-image="planet" class="main__button main__button_hover"><span class="main__number">03</span>surface geology</button>
         </nav>
       </article>
     </section>
