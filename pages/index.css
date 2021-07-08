@@ -11,7 +11,6 @@
 @import url(../blocks/spacer/spacer.css);
 
 @import url(../blocks/main/main.css);
-@import url(../blocks/main/__image-block/main__image-block.css);
 @import url(../blocks/main/__image/main__image.css);
 @import url(../blocks/main/__image-pointer/main__image-pointer.css);
 @import url(../blocks/main/__image-pointer/main__image-pointer_active.css);

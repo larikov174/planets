@@ -1,7 +1,26 @@
 .main__image-pointer {
   width: 163px;
-  position: absolute;
-  top: 420px;
-  left: 252px;
+  height: 163px;
+  position: relative;
+  top: 220px;
+  left: 65px;
   display: none;
+  background-image: url(../../../images/geology-mercury.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+  .main__image-pointer {
+    top: 0;
+    left: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__image-pointer {
+    top: -75px;
+    left: -24px;
+  }
 }

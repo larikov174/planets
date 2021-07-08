@@ -17,5 +17,13 @@
     font-size: 8px;
     line-height: 2;
     letter-spacing: 0.727273px;
+    margin: 0 0 0 13px;
+    padding: 15px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .card__title {
+    margin: 0;
   }
 }

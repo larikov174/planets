@@ -15,25 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   hActiveLink.style.borderColor = "#419EBB"; //active link color set
 
-  window.addEventListener("resize", () => {
-    let winSize = document.documentElement.clientWidth;
-    if (901 > winSize > 501) {
-      fetch("data.json")
-        .then((Response) => Response.json())
-        .then((json) => {
-          mImage.style.width = json[index].images.sizeTablet;
-          mImage.style.height = json[index].images.sizeTablet;
-        });
-    } else if (winSize <= 500) {
-      fetch("data.json")
-        .then((Response) => Response.json())
-        .then((json) => {
-          mImage.style.width = json[index].images.sizeMobile;
-          mImage.style.height = json[index].images.sizeMobile;
-        });
-    }
-  });
-
   function btnStatusChange() {
     for (let button of buttons) {
       button.classList.remove("main__button_active");
@@ -74,9 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
           //------------main link block ---------
           mLink.href = json[index].overview.source;
           //------------main image block --------
-          mImage.alt = json[index].name;
-          mImage.src = json[index].images.planet;
-          mImage.style.width = json[index].images.size;
+          mImage.title = json[index].name;
+          mImage.style.backgroundImage = `url(${json[index].images.planet})`;
           // -----------cards block--------------
           cards.childNodes[1].childNodes[3].textContent = json[index].rotation;
           cards.childNodes[3].childNodes[3].textContent = json[index].revolution;
@@ -89,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // -----------main nav buttons block--------------
   buttons.forEach((button) => {
     button.addEventListener("mousedown", () => {
-      console.log(document.documentElement.clientWidth);
       //-------hover/active toggle-------
       btnStatusChange();
       button.classList.toggle("main__button_hover");
@@ -107,9 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
           //------------main link block --------
           mLink.href = json[index][option].source;
           //------------main image block --------
-          mImage.src = json[index].images[picture];
-          mImagePointer.src = json[index].images.geology;
-          mImagePointer.alt = json[index].name;
+          mImage.style.backgroundImage = `url(${json[index].images[picture]})`;
+          mImagePointer.style.backgroundImage = `url(${json[index].images.geology})`;
+          mImagePointer.title = json[index].name;
           mImagePointer.classList.remove("main__image-pointer_active");
           switch (button.dataset.name) {
             case "geology":

@@ -8,6 +8,7 @@
 @media screen and (max-width: 900px) {
   .main__buttons {
     grid-area: 1 / 2 / 4 / 3;
+    padding: 56px 0 0 0;
   }
 }
 

@@ -2,3 +2,9 @@
   opacity: 0.5;
   margin: 0 22px 0 28px;
 }
+
+@media screen and (max-width: 1240px) {
+  .main__number {
+    margin: 0 12px 0 19px;
+  }
+}

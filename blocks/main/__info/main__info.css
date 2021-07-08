@@ -8,8 +8,9 @@
 @media screen and (max-width: 900px) {
   .main__info {
     grid-template-columns: 339px 281px;
-    grid-template-rows: min-content 173px min-content;
+    grid-template-rows: min-content minmax(110px, max-content) min-content;
     gap: 0 69px;
     margin: 0 auto;
+    transform: translate(0, -15px);
   }
 }
