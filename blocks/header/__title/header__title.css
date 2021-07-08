@@ -10,3 +10,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .header__title {
+    padding: 32px 0 0 0;
+  }
+}

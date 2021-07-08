@@ -8,3 +8,9 @@
   margin: 0;
   padding: 24px 0 0 0;
 }
+
+@media screen and (max-width: 900px) {
+  .main__url-zone {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+}

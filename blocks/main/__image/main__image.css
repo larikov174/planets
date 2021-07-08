@@ -3,3 +3,10 @@
   align-self: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 900px) {
+  .main__image {
+    align-self: normal;
+    padding-top: 75px;
+  }
+}

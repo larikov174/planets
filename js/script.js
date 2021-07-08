@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".main__button"),
     overviewBtn = document.querySelector('[data-name="overview"]'),
     planets = document.querySelectorAll(".header__link"),
+    hActiveLink = document.querySelector(".header__link_active"),
     mTitle = document.querySelector(".main__title"),
     mText = document.querySelector(".main__text"),
     mLink = document.querySelector(".main__link"),
@@ -11,6 +12,27 @@ document.addEventListener("DOMContentLoaded", () => {
     cards = document.querySelector(".cards");
 
   let index = 0;
+
+  hActiveLink.style.borderColor = "#419EBB"; //active link color set
+
+  window.addEventListener("resize", () => {
+    let winSize = document.documentElement.clientWidth;
+    if (901 > winSize > 501) {
+      fetch("data.json")
+        .then((Response) => Response.json())
+        .then((json) => {
+          mImage.style.width = json[index].images.sizeTablet;
+          mImage.style.height = json[index].images.sizeTablet;
+        });
+    } else if (winSize <= 500) {
+      fetch("data.json")
+        .then((Response) => Response.json())
+        .then((json) => {
+          mImage.style.width = json[index].images.sizeMobile;
+          mImage.style.height = json[index].images.sizeMobile;
+        });
+    }
+  });
 
   function btnStatusChange() {
     for (let button of buttons) {
@@ -42,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((Response) => Response.json())
         .then((json) => {
           //------header color-scheme switch-----
-          planet.style.borderTopColor = json[index].color;
+          planet.style.borderColor = json[index].color;
           //--fist button color-scheme switch---
           overviewBtn.style.backgroundColor = json[index].color;
           //------------main title block --------
@@ -67,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // -----------main nav buttons block--------------
   buttons.forEach((button) => {
     button.addEventListener("mousedown", () => {
+      console.log(document.documentElement.clientWidth);
       //-------hover/active toggle-------
       btnStatusChange();
       button.classList.toggle("main__button_hover");

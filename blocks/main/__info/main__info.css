@@ -4,3 +4,12 @@
   grid-template-rows: min-content 173px repeat(2, min-content);
   margin: 0 0 12px 112px;
 }
+
+@media screen and (max-width: 900px) {
+  .main__info {
+    grid-template-columns: 339px 281px;
+    grid-template-rows: min-content 173px min-content;
+    gap: 0 69px;
+    margin: 0 auto;
+  }
+}

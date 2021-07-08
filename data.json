@@ -22,7 +22,9 @@
       "planet": "./images/planet-mercury.svg",
       "internal": "./images/planet-mercury-internal.svg",
       "geology": "./images/geology-mercury.png",
-      "size": "290px"
+      "size": "290px",
+      "sizeTablet": "184px",
+      "sizeMobile": "111px"
     }
   },
   {
@@ -48,7 +50,9 @@
       "planet": "./images/planet-venus.svg",
       "internal": "./images/planet-venus-internal.svg",
       "geology": "./images/geology-venus.png",
-      "size": "400px"
+      "size": "400px",
+      "sizeTablet": "253px",
+      "sizeMobile": "154px"
     }
   },
   {
@@ -74,7 +78,9 @@
       "planet": "./images/planet-earth.svg",
       "internal": "./images/planet-earth-internal.svg",
       "geology": "./images/geology-earth.png",
-      "size": "450px"
+      "size": "450px",
+      "sizeTablet": "285px",
+      "sizeMobile": "173px"
     }
   },
   {
@@ -100,7 +106,9 @@
       "planet": "./images/planet-mars.svg",
       "internal": "./images/planet-mars-internal.svg",
       "geology": "./images/geology-mars.png",
-      "size": "336px"
+      "size": "336px",
+      "sizeTablet": "213px",
+      "sizeMobile": "129px"
     }
   },
   {
@@ -126,7 +134,9 @@
       "planet": "./images/planet-jupiter.svg",
       "internal": "./images/planet-jupiter-internal.svg",
       "geology": "./images/geology-jupiter.png",
-      "size": "582px"
+      "size": "582px",
+      "sizeTablet": "369px",
+      "sizeMobile": "224px"
     }
   },
   {
@@ -152,7 +162,9 @@
       "planet": "./images/planet-saturn.svg",
       "internal": "./images/planet-saturn-internal.svg",
       "geology": "./images/geology-saturn.png",
-      "size": "666px"
+      "size": "666px",
+      "sizeTablet": "422px",
+      "sizeMobile": "256px"
     }
   },
   {
@@ -178,7 +190,9 @@
       "planet": "./images/planet-uranus.svg",
       "internal": "./images/planet-uranus-internal.svg",
       "geology": "./images/geology-uranus.png",
-      "size": "458px"
+      "size": "458px",
+      "sizeTablet": "290px",
+      "sizeMobile": "176px"
     }
   },
   {
@@ -204,7 +218,9 @@
       "planet": "./images/planet-neptune.svg",
       "internal": "./images/planet-neptune-internal.svg",
       "geology": "./images/geology-neptune.png",
-      "size": "450px"
+      "size": "450px",
+      "sizeTablet": "285px",
+      "sizeMobile": "173px"
     }
   }
 ]
