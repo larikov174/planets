@@ -2,7 +2,14 @@
   display: grid;
   grid-template-columns: fit-content(350px);
   grid-template-rows: min-content 173px repeat(2, min-content);
-  margin: 0 0 12px 112px;
+  margin: 0 0 0px 103px;
+}
+
+@media screen and (max-width: 1170px) {
+  .main__info {
+    margin: 0 20px 0 0;
+    max-width: 282px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -12,5 +19,14 @@
     gap: 0 69px;
     margin: 0 auto;
     transform: translate(0, -15px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main__info {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (5, minmax(110px, max-content));
+    gap: 10px 0x;
+    margin: 0 auto;
   }
 }
