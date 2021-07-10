@@ -1,0 +1,14 @@
+.main__mobile {
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  .main__mobile {
+    display: grid;
+    grid-template-columns: minmax(327px, 1fr);
+    grid-template-rows: 1fr;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+  }
+}

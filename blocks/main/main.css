@@ -10,8 +10,16 @@
 
 @media screen and (max-width: 900px) {
   .main {
-    flex-direction: column;
-    margin: 0 auto;
+    grid-template-columns: 689px;
+    grid-template-rows: 2fr;
     padding: 0;
+    justify-content: center;
   }
 }
+
+@media screen and (max-width: 730px) {
+  .main {
+    display: none;
+  }
+}
+

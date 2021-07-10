@@ -1,0 +1,12 @@
+.header_mobile {
+  margin: 0 24px;
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  .header_mobile {
+    padding: 0;
+    border: none;
+    display: block;
+  }
+}

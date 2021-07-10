@@ -17,16 +17,21 @@
     grid-template-columns: 339px 281px;
     grid-template-rows: min-content minmax(110px, max-content) min-content;
     gap: 0 69px;
-    margin: 0 auto;
-    transform: translate(0, -15px);
-  }
+    transform: translate(0, -17px);
+    -webkit-transform: translate(0, -17px);
+    -moz-transform: translate(0, -17px);
+    -ms-transform: translate(0, -17px);
+    -o-transform: translate(0, -17px);
+}
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
   .main__info {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat (5, minmax(110px, max-content));
-    gap: 10px 0x;
+    grid-template-rows: 1fr;
+    gap: 0;
     margin: 0 auto;
+    transform: translate(0, 3px);
+    max-width: 100%;
   }
 }

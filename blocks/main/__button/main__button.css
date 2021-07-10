@@ -27,12 +27,30 @@
   margin: 16px 0;
 }
 
-/* @media screen and (max-width: 1170px) {
+@media screen and (max-width: 900px) {
+  .main__button {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 730px) {
   .main__button {
     width: 282px;
-    height: 40px;
     font-size: 9px;
     line-height: 2.78;
     letter-spacing: 1.92857px;
+    border: none;
+    text-align: center;
   }
-} */
+}
+
+@media screen and (max-width: 375px) {
+  .main__button {
+    font-size: 9px;
+    line-height: 1.1;
+  }
+
+  .main__button:nth-of-type(2) {
+    margin: 0;
+  }
+}

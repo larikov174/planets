@@ -1,3 +1,10 @@
 .main__button_active {
   background-color: #419ebb;
 }
+
+@media screen and (max-width: 730px) {
+  .main__button_active {
+    background-color: transparent;
+    border-bottom: 4px solid rgb(65, 158, 187);
+  }
+}

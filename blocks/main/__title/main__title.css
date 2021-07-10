@@ -16,9 +16,16 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
   .main__title {
     grid-area: 3 / 1 / 4 / 2;
-    font-size: 48px;
+    font-size: 40px;
+    text-align: center;
   }
 }
+
+/* @media screen and (max-width: 375px) {
+  .main__title {
+    text-align: center;
+  }
+} */

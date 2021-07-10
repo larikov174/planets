@@ -4,13 +4,15 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/header_mobile.css);
+@import url(../blocks/header/__block/header__block.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/header__link_active.css);
-@import url(../blocks/spacer/spacer.css);
 
 @import url(../blocks/main/main.css);
+@import url(../blocks/main/__mobile/main__mobile.css);
 @import url(../blocks/main/__image/main__image.css);
 @import url(../blocks/main/__image-pointer/main__image-pointer.css);
 @import url(../blocks/main/__image-pointer/main__image-pointer_active.css);
@@ -31,3 +33,11 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__subtitle/card__subtitle.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/menu_show.css);
+@import url(../blocks/menu/__menu-icon/header__menu-icon.css);
+@import url(../blocks/menu/__items/menu__items.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__circle/menu__circle.css);
+@import url(../blocks/menu/__arrow/menu__arrow.css);

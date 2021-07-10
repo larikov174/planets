@@ -14,12 +14,16 @@
     font-size: 11px;
     line-height: 2;
     padding: 0;
-    margin: 23px 0 0 0;
+    margin: 25px 0 0 0;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
   .main__text {
     grid-area: 4 / 1 / 5 / 2;
+    margin: 16px 0 0 0;
+    max-width: 327px;
+    text-align: center;
+    justify-self: center;
   }
 }

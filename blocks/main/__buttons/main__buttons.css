@@ -8,14 +8,19 @@
 @media screen and (max-width: 900px) {
   .main__buttons {
     grid-area: 1 / 2 / 4 / 3;
-    padding: 56px 0 0 0;
+    padding: 58px 0 0 0;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
   .main__buttons {
     grid-area: 1 / 1 / 2 / 2;
-    padding: 56px 0 0 0;
+    height: 50px;
+    margin: 16px 0 0 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 }
-
