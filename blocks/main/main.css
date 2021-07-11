@@ -1,17 +1,17 @@
 .main {
   max-width: 1129px;
-  padding: 126px 0 0 0;
+  padding: 55px 0 0 0;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(111px, 666px) max-content;
-  grid-template-rows: 1fr;
+  grid-template-rows: 666px;
   gap: 0;
 }
 
 @media screen and (max-width: 900px) {
   .main {
     grid-template-columns: 689px;
-    grid-template-rows: 2fr;
+    grid-template-rows: 475px 254px;
     padding: 0;
     justify-content: center;
   }

@@ -1,7 +1,7 @@
 .main__info {
   display: grid;
   grid-template-columns: fit-content(350px);
-  grid-template-rows: min-content 173px repeat(2, min-content);
+  grid-template-rows: min-content minmax(173px, min-content) repeat(2, min-content);
   margin: 0 0 0px 103px;
 }
 
@@ -23,15 +23,4 @@
     -ms-transform: translate(0, -17px);
     -o-transform: translate(0, -17px);
 }
-}
-
-@media screen and (max-width: 730px) {
-  .main__info {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0;
-    margin: 0 auto;
-    transform: translate(0, 3px);
-    max-width: 100%;
-  }
 }

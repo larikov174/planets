@@ -27,14 +27,13 @@
           <li><a data-id="7" class="header__link" href="#">neptune</a></li>
         </ul>
       </nav>
-      <div class="header__menu-icon"></div>
     </div>
   </header>
 
   <header class="header_mobile">
     <div class="header__block">
       <h1 class="header__title">the planets</h1>
-      <div class="header__menu-icon"></div>
+      <div class="menu__icon"></div>
     </div>
   </header>
 
@@ -44,7 +43,7 @@
         <div class="main__image-pointer" title="Mercury"></div>
       </div>
       <article class="main__info">
-        <h2 class="main__title">mercury</h2>
+        <h2 data-id="0" class="main__title">mercury</h2>
         <p class="main__text">
           Mercury is the smallest planet in the Solar System and the closest to the Sun.
           Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets.
@@ -67,26 +66,26 @@
       </article>
     </section>
 
-    <section class="main__mobile">
-      <nav class="main__buttons">
-        <button data-name="overview" data-image="planet" class="main__button main__button_active">overview</button>
-        <button data-name="structure" data-image="internal" class="main__button main__button_hover">structure</button>
-        <button data-name="geology" data-image="planet" class="main__button main__button_hover">surface</button>
+    <section class="mobile">
+      <nav class="mobile__buttons">
+        <button data-option="overview" data-image="planet" class="mobile__button mobile__button_active">overview</button>
+        <button data-option="structure" data-image="internal" class="mobile__button">structure</button>
+        <button data-option="geology" data-image="planet" class="mobile__button">surface</button>
       </nav>
-      <div class="main__image" title="Mercury">
-        <div class="main__image-pointer" title="Mercury"></div>
+      <div class="mobile__image" title="Mercury">
+        <div class="mobile__image-pointer" title="Mercury"></div>
       </div>
-      <article class="main__info">
-        <h2 class="main__title">mercury</h2>
-        <p class="main__text">
+      <article class="mobile__info">
+        <h2 data-id="0" class="mobile__title">mercury</h2>
+        <p class="mobile__text">
           Mercury is the smallest planet in the Solar System and the closest to the Sun.
           Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets.
           Mercury is one of four terrestrial planets in the Solar System, and is
           a rocky body like Earth.
         </p>
-        <div class="main__url-zone">
-          <p class="main__url-heading">Source&nbsp:&nbsp</p>
-          <a class="main__link" href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank">Wikipedia<img class="main__url-icon" alt="Wikipedia" src="./images/icon-source.svg" /></a>
+        <div class="mobile__url-zone">
+          <p class="mobile__url-heading">Source&nbsp:&nbsp</p>
+          <a class="mobile__link" href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank">Wikipedia<img class="mobile__url-icon" alt="Wikipedia" src="./images/icon-source.svg" /></a>
         </div>
 
         </div>
@@ -119,49 +118,49 @@
       <nav class="menu__items">
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #DEF4FC;"></div>
-          <a data-id="0" class="header__link" href="#">mercury</a>
+          <a data-id="0" class="menu__link" href="#">mercury</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #F7CC7F;"></div>
-          <a data-id="1" class="header__link" href="#">venus</a>
+          <a data-id="1" class="menu__link" href="#">venus</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #545BFE"></div>
-          <a data-id="2" class="header__link" href="#">earth</a>
+          <a data-id="2" class="menu__link" href="#">earth</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #FF6A45"></div>
-          <a data-id="3" class="header__link" href="#">mars</a>
+          <a data-id="3" class="menu__link" href="#">mars</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #ECAD7A"></div>
-          <a data-id="4" class="header__link" href="#">jupiter</a>
+          <a data-id="4" class="menu__link" href="#">jupiter</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #FCCB6B"></div>
-          <a data-id="5" class="header__link" href="#">saturn</a>
+          <a data-id="5" class="menu__link" href="#">saturn</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #65F0D5"></div>
-          <a data-id="6" class="header__link" href="#">uranus</a>
+          <a data-id="6" class="menu__link" href="#">uranus</a>
           <p class="menu__arrow">&gt;</p>
         </div>
 
         <div class="menu__item">
           <div class="menu__circle" style="background-color: #497EFA"></div>
-          <a data-id="7" class="header__link" href="#">neptune</a>
+          <a data-id="7" class="menu__link" href="#">neptune</a>
           <p class="menu__arrow">&gt;</p>
         </div>
       </nav>
@@ -169,7 +168,9 @@
 
   </main>
 
-  <script src="./js/script.js"></script>
+  <script src="./js/desktop.js"></script>
+  <script src="./js/mobile.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>

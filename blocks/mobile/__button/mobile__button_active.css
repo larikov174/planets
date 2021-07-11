@@ -1,0 +1,4 @@
+.mobile__button_active {
+  border-bottom: 4px solid rgb(65, 158, 187);
+  opacity: 1;
+}

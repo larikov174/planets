@@ -1,9 +1,9 @@
-.main__mobile {
+.mobile {
   display: none;
 }
 
 @media screen and (max-width: 730px) {
-  .main__mobile {
+  .mobile {
     display: grid;
     grid-template-columns: minmax(327px, 1fr);
     grid-template-rows: 1fr;
@@ -12,3 +12,5 @@
     margin: 0;
   }
 }
+
+

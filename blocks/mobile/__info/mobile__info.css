@@ -1,0 +1,9 @@
+.mobile__info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0;
+  margin: 0 auto;
+  transform: translate(0, 3px);
+  max-width: 100%;
+}

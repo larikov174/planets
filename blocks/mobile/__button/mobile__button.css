@@ -1,21 +1,22 @@
-.main__button {
-  width: 100%;
+.mobile__button {
+  width: 282px;
   height: 48px;
   font-family: "Spartan", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 2.08;
-  letter-spacing: 2.57143px;
+  font-size: 9px;
+  line-height: 2.78;
+  letter-spacing: 1.92857px;
   text-transform: uppercase;
   color: #ffffff;
   background-color: transparent;
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: start;
+  border: none;
+  text-align: center;
   margin: 0;
   padding: 0;
   cursor: pointer;
+  opacity: 0.5;
   transition: background-color 0.3s;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -23,15 +24,16 @@
   -o-transition: background-color 0.3s;
 }
 
-.main__button:nth-of-type(2) {
+.mobile__button:nth-of-type(2) {
   margin: 16px 0;
 }
 
-@media screen and (max-width: 900px) {
-  .main__button {
-    height: 40px;
-    font-size: 9px;
-    line-height: 2.78;
-    letter-spacing: 1.92857px;
+@media screen and (max-width: 375px) {
+  .mobile__button {
+    line-height: 1.1;
+  }
+
+  .mobile__button:nth-of-type(2) {
+    margin: 0;
   }
 }

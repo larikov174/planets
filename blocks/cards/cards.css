@@ -5,7 +5,7 @@
   grid-template-columns: repeat(4, 255px);
   gap: 0 30px;
   margin: 0 auto;
-  padding: 88px 0 56px 0;
+  padding: 33px 0 56px 0;
 }
 
 @media screen and (max-width: 1170px) {
