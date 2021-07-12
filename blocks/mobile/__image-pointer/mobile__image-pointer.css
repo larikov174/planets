@@ -9,9 +9,11 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0 auto;
+  align-self: flex-end;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 730px) {
   .mobile__image-pointer {
     top: -75px;
     left: -24px;
