@@ -7,3 +7,13 @@
   margin: 0;
   padding: 23px 0 0 0;
 }
+
+@media screen and (max-width: 900px) {
+  .main__text {
+    grid-area: 2 / 1 / 3 / 2;
+    font-size: 11px;
+    line-height: 2;
+    padding: 0;
+    margin: 25px 0 0 0;
+  }
+}

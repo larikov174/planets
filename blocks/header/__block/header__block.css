@@ -1,0 +1,23 @@
+.header__block {
+  max-width: 1368px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .header__block {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__block {
+    width: 100%;
+    flex-direction: row;
+    padding: 16px 0 0 0;
+    }
+}

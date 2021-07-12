@@ -22,3 +22,16 @@
   cursor: pointer;
   opacity: 1;
 }
+
+@media screen and (max-width: 900px) {
+  .header__link {
+    padding: 0 0 28px 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__link {
+    margin: 0 0 0 45px;
+    padding: 0;
+  }
+}

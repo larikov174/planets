@@ -1,6 +1,7 @@
 [
   {
     "name": "Mercury",
+    "color": "#419EBB",
     "overview": {
       "content": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
       "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
@@ -20,11 +21,15 @@
     "images": {
       "planet": "./images/planet-mercury.svg",
       "internal": "./images/planet-mercury-internal.svg",
-      "geology": "./images/geology-mercury.png"
+      "geology": "./images/geology-mercury.png",
+      "sizeDesktop": "290px",
+      "sizeTablet": "184px",
+      "sizeMobile": "111px"
     }
   },
   {
     "name": "Venus",
+    "color": "#EDA249",
     "overview": {
       "content": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
       "source": "https://en.wikipedia.org/wiki/Venus"
@@ -44,11 +49,15 @@
     "images": {
       "planet": "./images/planet-venus.svg",
       "internal": "./images/planet-venus-internal.svg",
-      "geology": "./images/geology-venus.png"
+      "geology": "./images/geology-venus.png",
+      "sizeDesktop": "400px",
+      "sizeTablet": "253px",
+      "sizeMobile": "154px"
     }
   },
   {
     "name": "Earth",
+    "color": "#6D2ED5",
     "overview": {
       "content": "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
       "source": "https://en.wikipedia.org/wiki/Earth"
@@ -68,11 +77,15 @@
     "images": {
       "planet": "./images/planet-earth.svg",
       "internal": "./images/planet-earth-internal.svg",
-      "geology": "./images/geology-earth.png"
+      "geology": "./images/geology-earth.png",
+      "sizeDesktop": "450px",
+      "sizeTablet": "285px",
+      "sizeMobile": "173px"
     }
   },
   {
     "name": "Mars",
+    "color": "#D14C32",
     "overview": {
       "content": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".",
       "source": "https://en.wikipedia.org/wiki/Mars"
@@ -92,11 +105,15 @@
     "images": {
       "planet": "./images/planet-mars.svg",
       "internal": "./images/planet-mars-internal.svg",
-      "geology": "./images/geology-mars.png"
+      "geology": "./images/geology-mars.png",
+      "sizeDesktop": "336px",
+      "sizeTablet": "213px",
+      "sizeMobile": "129px"
     }
   },
   {
     "name": "Jupiter",
+    "color": "#D83A34",
     "overview": {
       "content": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.",
       "source": "https://en.wikipedia.org/wiki/Jupiter"
@@ -116,11 +133,15 @@
     "images": {
       "planet": "./images/planet-jupiter.svg",
       "internal": "./images/planet-jupiter-internal.svg",
-      "geology": "./images/geology-jupiter.png"
+      "geology": "./images/geology-jupiter.png",
+      "sizeDesktop": "582px",
+      "sizeTablet": "369px",
+      "sizeMobile": "224px"
     }
   },
   {
     "name": "Saturn",
+    "color": "#CD5120",
     "overview": {
       "content": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.",
       "source": "https://en.wikipedia.org/wiki/Saturn"
@@ -140,11 +161,15 @@
     "images": {
       "planet": "./images/planet-saturn.svg",
       "internal": "./images/planet-saturn-internal.svg",
-      "geology": "./images/geology-saturn.png"
+      "geology": "./images/geology-saturn.png",
+      "sizeDesktop": "666px",
+      "sizeTablet": "422px",
+      "sizeMobile": "256px"
     }
   },
   {
     "name": "Uranus",
+    "color": "#1EC1A2",
     "overview": {
       "content": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
       "source": "https://en.wikipedia.org/wiki/Uranus"
@@ -164,11 +189,15 @@
     "images": {
       "planet": "./images/planet-uranus.svg",
       "internal": "./images/planet-uranus-internal.svg",
-      "geology": "./images/geology-uranus.png"
+      "geology": "./images/geology-uranus.png",
+      "sizeDesktop": "458px",
+      "sizeTablet": "290px",
+      "sizeMobile": "176px"
     }
   },
   {
     "name": "Neptune",
+    "color": "#2D68F0",
     "overview": {
       "content": "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.",
       "source": "https://en.wikipedia.org/wiki/Neptune"
@@ -188,7 +217,10 @@
     "images": {
       "planet": "./images/planet-neptune.svg",
       "internal": "./images/planet-neptune-internal.svg",
-      "geology": "./images/geology-neptune.png"
+      "geology": "./images/geology-neptune.png",
+      "sizeDesktop": "450px",
+      "sizeTablet": "285px",
+      "sizeMobile": "173px"
     }
   }
 ]

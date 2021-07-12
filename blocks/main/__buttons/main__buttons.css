@@ -4,3 +4,10 @@
   padding: 39px 0 0 0;
   list-style-type: none;
 }
+
+@media screen and (max-width: 900px) {
+  .main__buttons {
+    grid-area: 1 / 2 / 4 / 3;
+    padding: 58px 0 0 0;
+  }
+}

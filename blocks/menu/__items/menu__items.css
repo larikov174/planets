@@ -1,0 +1,6 @@
+.menu__items {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+  align-items: flex-end;
+}

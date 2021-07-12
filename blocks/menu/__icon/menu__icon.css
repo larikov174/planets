@@ -1,0 +1,21 @@
+.menu__icon {
+  display: none;
+  width: 0;
+  height: 0;
+  background-image: url(../../../images/icon-hamburger.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu__icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+  .menu__icon {
+    display: block;
+    width: 24px;
+    height: 17px;
+  }
+}

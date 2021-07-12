@@ -1,0 +1,12 @@
+.menu__item {
+  display: flex;
+  width: 319px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 0 20px 0;
+  justify-content: space-between;
+}
+
+.menu__item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}

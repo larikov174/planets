@@ -1,5 +1,26 @@
 .main__info {
   display: grid;
   grid-template-columns: fit-content(350px);
-  grid-template-rows: repeat(4, min-content);
+  grid-template-rows: min-content minmax(173px, min-content) repeat(2, min-content);
+  margin: 0 0 0px 103px;
+}
+
+@media screen and (max-width: 1170px) {
+  .main__info {
+    margin: 0 20px 0 0;
+    max-width: 282px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main__info {
+    grid-template-columns: 339px 281px;
+    grid-template-rows: min-content minmax(110px, max-content) min-content;
+    gap: 0 69px;
+    transform: translate(0, -17px);
+    -webkit-transform: translate(0, -17px);
+    -moz-transform: translate(0, -17px);
+    -ms-transform: translate(0, -17px);
+    -o-transform: translate(0, -17px);
+}
 }

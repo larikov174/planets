@@ -4,14 +4,17 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/header_mobile.css);
+@import url(../blocks/header/__block/header__block.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/header__link_active.css);
-@import url(../blocks/spacer/spacer.css);
 
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__image/main__image.css);
+@import url(../blocks/main/__image-pointer/main__image-pointer.css);
+@import url(../blocks/main/__image-pointer/main__image-pointer_active.css);
 @import url(../blocks/main/__info/main__info.css);
 @import url(../blocks/main/__title/main__title.css);
 @import url(../blocks/main/__text/main__text.css);
@@ -25,7 +28,32 @@
 @import url(../blocks/main/__button/main__button_hover.css);
 @import url(../blocks/main/__number/main__number.css);
 
+@import url(../blocks/mobile/mobile.css);
+@import url(../blocks/mobile/__image/mobile__image.css);
+@import url(../blocks/mobile/__image-pointer/mobile__image-pointer.css);
+@import url(../blocks/mobile/__image-pointer/mobile__image-pointer_active.css);
+@import url(../blocks/mobile/__info/mobile__info.css);
+@import url(../blocks/mobile/__title/mobile__title.css);
+@import url(../blocks/mobile/__text/mobile__text.css);
+@import url(../blocks/mobile/__url-zone/mobile__url-zone.css);
+@import url(../blocks/mobile/__url-heading/mobile__url-heading.css);
+@import url(../blocks/mobile/__link/mobile__link.css);
+@import url(../blocks/mobile/__url-icon/mobile__url-icon.css);
+@import url(../blocks/mobile/__buttons/mobile__buttons.css);
+@import url(../blocks/mobile/__button/mobile__button.css);
+@import url(../blocks/mobile/__button/mobile__button_active.css);
+@import url(../blocks/mobile/__number/mobile__number.css);
+
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__subtitle/card__subtitle.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/menu_show.css);
+@import url(../blocks/menu/__icon/menu__icon.css);
+@import url(../blocks/menu/__items/menu__items.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__circle/menu__circle.css);
+@import url(../blocks/menu/__arrow/menu__arrow.css);
+@import url(../blocks/menu/__link/menu__link.css);

@@ -1,0 +1,19 @@
+.mobile__image-pointer {
+  width: 163px;
+  height: 163px;
+  position: relative;
+  top: 220px;
+  left: 65px;
+  display: none;
+  background-image: url(../../../images/geology-mercury.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 400px) {
+  .mobile__image-pointer {
+    top: -75px;
+    left: -24px;
+  }
+}

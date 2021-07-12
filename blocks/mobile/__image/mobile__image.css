@@ -1,0 +1,13 @@
+.mobile__image {
+  display: block;
+  width: 111px;
+  height: 111px;
+  padding: 190px 0 0 0;
+  background-image: url(../../../images/planet-mercury.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+}
