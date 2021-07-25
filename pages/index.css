@@ -57,3 +57,6 @@
 @import url(../blocks/menu/__circle/menu__circle.css);
 @import url(../blocks/menu/__arrow/menu__arrow.css);
 @import url(../blocks/menu/__link/menu__link.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
